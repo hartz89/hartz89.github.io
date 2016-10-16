@@ -1,0 +1,41 @@
+#rh-todo-editor-header h1, #rh-todo-editor-header h2, #rh-todo-editor-header h3 {
+  margin-top: 0; }
+
+#rh-todo-editor-controls .btn {
+  margin-right: 5px; }
+  #rh-todo-editor-controls .btn:last-child {
+    margin-right: 0; }
+
+#rh-todo-list-main .page-header h1 {
+  text-align: center; }
+
+#rh-todo-manager #rh-todo-list-controls {
+  text-align: center; }
+  #rh-todo-manager #rh-todo-list-controls .rh-todo-control {
+    display: inline-block;
+    padding-right: 10px;
+    padding-bottom: 20px; }
+    #rh-todo-manager #rh-todo-list-controls .rh-todo-control:last-child {
+      padding-right: 0; }
+
+#rh-todo-list .rh-todo {
+  width: 100%; }
+  #rh-todo-list .rh-todo .rh-edit-todo {
+    position: absolute;
+    right: 15px;
+    top: 17px; }
+
+#rh-todo-editor-wrapper:empty {
+  display: none; }
+
+@media (min-width: 768px) {
+  #rh-todo-manager #rh-todo-list-controls {
+    padding-bottom: 0; }
+    #rh-todo-manager #rh-todo-list-controls .rh-todo-control {
+      display: block;
+      width: 100%;
+      float: right;
+      padding-right: 0;
+      padding-bottom: 10px; }
+      #rh-todo-manager #rh-todo-list-controls .rh-todo-control .btn {
+        float: right; } }
